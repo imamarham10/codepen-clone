@@ -13,7 +13,7 @@ const Container = styled(Box)`
 const Code = () =>{
     const {html,css,js,setHtml,setCss,setJs} = useContext(DataContext);
     return(
-        <Container>
+        <Container style={{height: '55vh'}}>
             <Editor
             heading="HTML"
             icon="/"

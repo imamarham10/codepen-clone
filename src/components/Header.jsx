@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { AppBar,Toolbar } from "@mui/material";
-import { fontWeight } from "@mui/system";
+
 
 const Container = styled(AppBar)`
     background: #060606;
