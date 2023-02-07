@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { AppBar,Toolbar } from "@mui/material";
+import { fontWeight } from "@mui/system";
 
 const Container = styled(AppBar)`
     background: #060606;
@@ -15,6 +16,7 @@ const Header = () => {
             <Container position="static">
                 <Toolbar>
                     <img src={logo} alt="logo" style={{width: 40}}/>
+                    <span style={{marginLeft: '25px', fontSize: '20px', fontWeight: '900', fontFamily: 'monospace'}}>Codepen</span>
                 </Toolbar>
             </Container>
         </>
