@@ -5,7 +5,7 @@ CodePen is an online community for testing and showcasing user-created HTML, CSS
 
 In the project directory, you can run:
 
-# FRONTEND
+## FRONTEND
 ### `npm install`
 Installs dependecies
 
